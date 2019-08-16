@@ -297,3 +297,9 @@ PRODUCT_BOOT_JARS += \
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts \
+    init.xiaomiparts.rc \
+    init.xiaomiparts.sh
