@@ -203,8 +203,5 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # LLVM tools
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
-# Recovery
-TARGET_USES_AOSP_RECOVERY := true
-
 # Inherit proprietary blobs
 -include vendor/xiaomi/sm6250-common/BoardConfigVendor.mk
