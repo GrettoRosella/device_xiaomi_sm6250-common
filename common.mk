@@ -13,9 +13,6 @@ $(call inherit-product-if-exists, vendor/xiaomi/sm6250-common/sm6250-common-vend
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
-
 # ANXCamera
 $(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
 
@@ -44,9 +41,6 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio \
     qcom.fmradio.xml
-
-PRODUCT_BOOT_JARS += \
-    qcom.fmradio
 
 # AVB
 PRODUCT_PACKAGES += \
@@ -233,9 +227,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
     telephony-ext
 
 PRODUCT_COPY_FILES += \
