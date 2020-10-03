@@ -50,6 +50,8 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    libbtconfigstore \
+    libbluetooth_qti \
     BluetoothQti
 
 PRODUCT_COPY_FILES += \
