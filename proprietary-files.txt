@@ -1498,6 +1498,9 @@ vendor/lib/libwfdutils_proprietary.so
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 
+# Override
+vendor/bin/hw/android.hardware.graphics.composer@2.4-service
+
 # Unlinked
 #vendor/bin/sviswitch
 #vendor/etc/init/init.qti.fm.rc
